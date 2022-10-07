@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "CommonJS",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "strict": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "typeRoots": ["./node_modules/@types", "./types"],
+  "exclude": ["node_modules", ".build", "*.test.ts", "*.js"],
+  "include": ["src/**/*", "types"]
+}
